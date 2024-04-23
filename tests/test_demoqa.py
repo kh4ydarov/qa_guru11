@@ -34,7 +34,7 @@ def test_registration_form():
     browser.element('table>tbody>tr:nth-child(5)>td:nth-child(2)').should(have.text('10 April,1999'))
     browser.element('table>tbody>tr:nth-child(6)>td:nth-child(2)').should(have.text('Maths'))
     browser.element('table>tbody>tr:nth-child(7)>td:nth-child(2)').should(have.text('Music'))
-    browser.element('table>tbody>tr:nth-child(8)>td:nth-child(2)').should(have.text('tests.jpg'))
+    browser.element('table>tbody>tr:nth-child(8)>td:nth-child(2)').should(have.text('test.jpg'))
     browser.element('table>tbody>tr:nth-child(9)>td:nth-child(2)').should(have.text('test_address'))
     browser.element('table>tbody>tr:nth-child(10)>td:nth-child(2)').should(have.text('Haryana Panipat'))
 
